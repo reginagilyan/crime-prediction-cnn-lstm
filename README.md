@@ -4,6 +4,7 @@ This repository contains a group project completed as part of the Deep Learning 
 Running the full notebook, which consists of loading the data, cleaning, creating heatmaps, sequences, tranining and testing the model takes around 2 hours.
 
 **Project Overview**
+
 This project explores deep learning approaches for predicting weekly crime counts across Chicago districts by combining spatial, temporal, and socio-economic information.
 We developed a hybrid CNN-LSTM architecture that integrates crime hotspot heatmaps with weather and census data to model spatiotemporal crime patterns.
 
@@ -31,4 +32,5 @@ After preprocessing, the final dataset consisted of more than 700,000 crime repo
 - Trained and evaluated the model for district-level crime prediction.
 
 **Results**
+
 The model successfully learned spatial and temporal crime patterns and achieved stable convergence during training. While predictive performance leaves room for improvement, the project demonstrates the application of deep learning techniques to complex real-world spatiotemporal datasets.
